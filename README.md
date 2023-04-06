@@ -6,7 +6,6 @@ The standard INPUT command allows the user to move the cursor around the screen 
 The code is supplied in a d64 image and 
 
 10 co=0:b$="":cc=3:sl=20:bk$=chr$(20)
-
 15 poke 204,1:poke 646,3:poke 647,3:
    poke 204,0
 20 if co<sl then poke 198,0:wait 198,1
